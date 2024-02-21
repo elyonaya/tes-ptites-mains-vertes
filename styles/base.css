@@ -1,0 +1,54 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  /*font-family: "Merriweather", serif;*/
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  color: black;
+  border-radius: 5px;
+}
+
+section.bg-dark {
+  background-color: var(--tertiary-color);
+}
+
+section.bg-light {
+  background-color: white;
+}
