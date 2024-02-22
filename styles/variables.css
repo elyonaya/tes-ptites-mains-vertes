@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+
+:root {
+  --vertClair: #C7D9A0;
+  --vertLogo: #84BF2C;
+  --vertFonce: #1D5902;
+  --beige: #E9E5DC;
+  --marron:#46393C;
+  --heading-font: "Abril Fatface", serif;
+  --body-font: "Josefin Sans", sans-serif;
+}
