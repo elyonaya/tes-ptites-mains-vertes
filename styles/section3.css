@@ -64,3 +64,41 @@
     padding: 13% 0;
 }
 /* fin CSS section 4 */
+
+/* début CSS section 5 */
+.section5 {
+    height: 75vh;
+    padding-bottom: 10%;
+}
+
+.section5>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+}
+
+.section5>.container>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section5 img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    box-shadow: 10px 10px 15px #C7D9A0;
+}
+
+.projetAVenir {
+    border: 2px solid red;
+    width: 18%;
+    height: 30%;
+    margin: 0 5%;
+}
+
+/* fin CSS section 5 */
