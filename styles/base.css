@@ -27,6 +27,7 @@ p {
 }
 
 a {
+  font-family: var(--heading-font);
   text-decoration: none;
   color: var(--marron);
 }
@@ -67,4 +68,14 @@ section.bg-vert {
   background-color: var(--vertClair);
 }
 
+.bold {
+  font-weight: bold;
+}
 
+.josefin {
+  font-family: var(--body-font);
+}
+
+ul li {
+  font-family: var(--body-font);
+}

@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Accueil</title>
+    <link rel="shortcut icon" href="images/logoOnglet.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/variables.css" />
     <link rel="stylesheet" href="styles/base.css" />
@@ -30,18 +31,24 @@
                 <a href="#">ACCUEIL</a>
               </li>
               <li>
-                <a href="quiSommesNous.html">QUI SOMMES NOUS ?</a> <!-- lien vers page qui sommes-nous ? -->
+                <a href="aPropos.html">QUI SOMMES NOUS ?</a> <!-- lien vers page qui sommes-nous ? -->
               </li>
               <li>
-                <a href="#">CONTACT</a> <!-- faire lien vers le footer -->
+                <a href="#footer">CONTACT</a> <!-- faire lien vers le footer -->
               </li>
             </ul>
            
           </div>
           <div class="burger-menu">
+<<<<<<< HEAD
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
+=======
+            <div class="line"><a href="#">ACCUEIL</a></div>
+            <div class="line"><a href="aPropos.html">QUI SOMMES NOUS ?</a></div>
+            <div class="line"><a href="#footer">CONTACT</a></div>
+>>>>>>> 8b8c7ec051c9a3018b746ec15bd27ff7b60015c8
           </div>
         </nav>
       
@@ -84,7 +91,7 @@
               <img src="images/fabrication.png" alt="Nos réalisations" width="50px" height="50px">
             </div>
             <h2>NOS REALISATIONS</h2>
-            <a href="#section6" class="btnVert">En savoir plus</a> <!-- bouton carré vert -->
+            <a href="#section6" class="btnVert">Découvrir</a> <!-- bouton carré vert -->
           </div>
 
           <div class="carre vert"> <!-- div carré vert 2 -->
@@ -92,7 +99,7 @@
               <img src="images/projet.png" alt="Nos réalisations" width="50px" height="50px">
             </div>
             <h2>NOS PROJETS A VENIR</h2>
-            <a href="#section5" class="btnVert">En savoir plus</a> <!-- bouton carré vert -->
+            <a href="#section5" class="btnVert">Découvrir</a> <!-- bouton carré vert -->
           </div>
 
           <div class="carre vert"> <!-- div carré vert 3 -->
@@ -100,7 +107,7 @@
               <img src="images/donate.png" alt="Nosréalisations" width="50px" height="50px">
             </div>
             <h2>ADHEREZ OU FAITES UN DON</h2>
-            <a href="https://www.helloasso.com/associations/le-collectif-tes-p-tites-mains-vertes" class="btnVert">En savoir plus</a> <!-- bouton carré vert -->
+            <a href="https://www.helloasso.com/associations/le-collectif-tes-p-tites-mains-vertes" target="_blank" class="btnVert">En savoir plus</a> <!-- bouton carré vert -->
           </div>
         </div>
       </section>
@@ -109,7 +116,7 @@
       <!-- début section 3 -->
       <section class="section3" id="section3">
         <div class="containerVideo">  <!-- background pellicule video -->
-          <h1 style="color: white">Un extrait de notre travail</h1>
+          <h1 style="color: var(--beige)">Un extrait de notre travail</h1>
           <div class="videoYtb"> <!-- div affichage de la vidéo youtube -->
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MbBHTdOuYSI?si=iT8CTMw6yz29cY1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
@@ -133,7 +140,7 @@
           <p>"Les P'tites Mains Vertes, une association engagée et créative qui cultive l'art du vivant en semant des graines de poésie urbaine, en explorant les richesses du métissage, et en célébrant la force des femmes dans la cité et dans l'art. <br> <br>
             Notre passion pour la biodiversité et la diversité se reflète dans chaque activité que nous plantons, favorisant le partage, la création de liens, la créativité, l'épanouissement, et le grandir ensembles.  <br> <br>
             Rejoignez-nous pour faire éclore un monde où chaque petite main compte dans la préservation de notre planète et la célébration de la diversité qui nous entoure."</p> <!-- texte description notre mission -->
-          <a href="https://www.helloasso.com/associations/le-collectif-tes-p-tites-mains-vertes" class="btnBlanc">Adhérez ou faites un don</a> <!-- bouton vers hello asso -->
+          <a href="https://www.helloasso.com/associations/le-collectif-tes-p-tites-mains-vertes" target="_blank" class="btnBlanc">Adhérez ou faites un don</a> <!-- bouton vers hello asso -->
         </div>
       </div>
       </section>
@@ -270,7 +277,7 @@
     <!-- fin main -->
 
     <!-- début footer -->
-    <footer>
+    <footer id="footer">
       <div class="containerFooter">
         <!-- début éléments footer gauche -->
         <div class="footerGauche">
@@ -279,7 +286,7 @@
           </div>
           <div class="pictos"> <!-- div contenant les icones et liens des réseaux sociaux -->
             <div class="logo"> <!-- logo et lien facebook -->
-              <a href="https://www.facebook.com/tesptitesmainsvertes">
+              <a href="https://www.facebook.com/tesptitesmainsvertes" target="_blank">
                 <img src="images/facebook.png" alt="">
               </a>
             </div>
@@ -290,7 +297,7 @@
             </div>
             <div class="logo"> <!-- logo et lien youtube -->
               <a href="https://www.youtube.com/@tespetitesmainsvertes7562" target="_blank">
-                <img src="images/Youtube.png" alt="">
+                <img src="images/logoYoutube.png" alt="">
               </a>
             </div>
           </div>
@@ -298,29 +305,24 @@
         <!-- fin éléments footer gauche -->
 
         <!-- début éléments footer droit -->
-
         
         <div class="footerDroit">
+          <div>
           <div class="Contact"> <!-- coté gauche -->
-            <a href="https://www.helloasso.com/associations/le-c8ollectif-tes-p-tites-mains-vertes" target="_blank">Adhérez ou faites un don</a> <!-- lien vers hello asso -->
-            <p>Contact</p> <!-- texte à mettre en gras -->
-            <a href="mailto:tesptitesmainsvertes@gmail.com" target="_blank">Envoyer un mail</a> <!-- lien mailto: vers email -->
+            <a href="https://www.helloasso.com/associations/le-collectif-tes-p-tites-mains-vertes" target="_blank" class="josefin bold">Adhérez ou faites un don</a> <br><!-- lien vers hello asso -->
+            <p class="bold">Contact</p> <!-- texte à mettre en gras -->
+            <a href="mailto:tesptitesmainsvertes@gmail.com" target="_blank" class="josefin bold">tesptitesmainsvertes@gmail.com</a> <!-- lien mailto: vers email -->
           </div>
 
           <div class="adresse"> <!-- coté droit -->
-            <p><b>Siège social</b></p> <!-- texte à mettre en gras -->
+            <p class="bold">Siège social</p> <br><!-- texte à mettre en gras -->
             <p> <b></b> Maison des associations de Tourcoing <br> <!-- adresse siège social -->
               100 rue de Lille <br>
               59200 Tourcoing</p>
-              <a class="mentionslegales" href="mentionsLegales.html">Mentions légales</a> <!-- lien vers page mentions légales -->
           </div>
-
-          
-
-          
-
+        </div>
           <!-- centré -->
-          
+          <a class="mentionslegales josefin bold" href="mentionsLegales.html">Mentions légales</a> <!-- lien vers page mentions légales -->
         </div>
         <!-- fin éléments footer droit -->
       </div>

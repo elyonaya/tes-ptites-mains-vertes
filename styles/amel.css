@@ -227,9 +227,8 @@
   width: 100%;
 }
 .section7 .slam{
-  border: 2px solid ;
+  border-radius: 25px;
   width: 376px;
-
   padding: 20px;
   text-align: center;
   position: absolute;

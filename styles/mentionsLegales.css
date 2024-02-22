@@ -1,3 +1,8 @@
+.container {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
 .feuilles{
           display: flex;
           align-items: center;
@@ -16,13 +21,14 @@
 }
 
 .texte{
-          border: 5px solid #1D5902;
+          border: 3px solid #1D5902;
           border-radius: 10px;
           text-align: center;
           padding: 10px;
           box-shadow: 68px 48px 4px 0px #C7D9A0;  
           width: 70%;
           margin: 0 auto;
+          padding: 3%;
 }
 
 .titreMentions{
