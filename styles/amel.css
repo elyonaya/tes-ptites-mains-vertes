@@ -113,12 +113,13 @@
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
 #section6 .container img{
   width: 100%;
+  border-radius: 20px;
 }
 
 #section6 .container .carre {
@@ -145,6 +146,8 @@
   text-align: center;
   opacity: 0; /* Initialement caché */
   transition: opacity 0.3s ease; /* Animation de transition */
+  border-radius: 20px;
+
 }
 
 #section6 .container .carre:hover .hover-content {
