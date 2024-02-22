@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mentionsLegales</title>
-    <link rel="stylesheet" href="/styles/mentionsLegales.css">
-    <link rel="stylesheet" href="/styles/variables.css">
-    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/mentionsLegales.css">
 </head>
 <header>
       
@@ -17,13 +21,13 @@
       <div class="menu"> <!-- div navigation -->
         <ul>
           <li>
-            <a href="#">ACCUEIL</a>
+            <a href="index.html">ACCUEIL</a>
           </li>
           <li>
             <a href="quiSommesNous.html">QUI SOMMES NOUS ?</a> <!-- lien vers page qui sommes-nous ? -->
           </li>
           <li>
-            <a href="#">CONTACT</a> <!-- faire lien vers le footer -->
+            <a href="#footer">CONTACT</a> <!-- faire lien vers le footer -->
           </li>
         </ul>
       </div>
@@ -45,33 +49,79 @@
             </div>
             </div>
             <div class="texte">
-                <p>
-                    <b>Association Les P'tites Mains Vertes</b> <br>
-
-<b>Informations générales</b><br>
-L'association Les P'tites Mains Vertes est régie par la Loi 1901, créée le 12 février 2002 et officiellement publiée au Journal Officiel (JO) le 9 mars 2002, annonce no 1944 page 1157. Son siège social est situé à la Maison des associations de Tourcoing, 100 rue de Lille, 59200 Tourcoing.
-<br>
-<b>Licence de spectacle entrepreneur</b><br>
-L'association détient une licence de spectacle entrepreneur portant le numéro PLATESV-R-2020-005732.
-<br>
-<b>Assurance</b><br>
-L'assurance de l'association est fournie par la MAIF, avec l'identifiant 4361435H.
-<br>
-<b>Identification fiscale</b><br>
-L'association est identifiée fiscalement avec le numéro de SIRET 450 029 160 00030.
-<br>
-<b>Statuts et Bureau</b><br>
-Les statuts de l'association et le bureau ont été mis à jour le 19 janvier 2024. Le bureau est composé de la Présidente Isabelle LEGUERN, la Trésorière Isabelle TASCON, le Président d'honneur Gérard LEFORT, et la Secrétaire Malika ROUACHE.
-<br>
-<b>Site de publication</b><br>
-Le site est publié sous la direction de Isabelle Tascon, qui peut être contactée à l'adresse e-mail tesptitesmainsvertes@gmail.com.
-<br>
-<b>Propriété Intellectuelle</b><br>
-"Toutes les photos et vidéos présentes sur ce site sont la seule propriété de l'association Les P'tites Mains Vertes. Toute utilisation, reproduction ou diffusion sans autorisation préalable est strictement interdite."
+                <p class="bold">Association Les P'tites Mains Vertes</p><br>
+                <p class="bold">Informations générales</p>
+                <p>L'association Les P'tites Mains Vertes est régie par la Loi 1901, créée le 12 février 2002 et officiellement publiée au Journal Officiel (JO) le 9 mars 2002, annonce no 1944 page 1157. Son siège social est situé à la Maison des associations de Tourcoing, 100 rue de Lille, 59200 Tourcoing.</p><br>
+                <p class="bold">Licence de spectacle entrepreneur</p>
+                <p>L'association détient une licence de spectacle entrepreneur portant le numéro PLATESV-R-2020-005732.</p><br>
+                <p class="bold">Assurance</p>
+                <p>L'assurance de l'association est fournie par la MAIF, avec l'identifiant 4361435H.</p><br>
+                <p class="bold">Identification fiscale</p>
+                <p>L'association est identifiée fiscalement avec le numéro de SIRET 450 029 160 00030.</p><br>
+                <p class="bold">Statuts et Bureau</p>
+                <p>Les statuts de l'association et le bureau ont été mis à jour le 19 janvier 2024. Le bureau est composé de la Présidente Isabelle LEGUERN, la Trésorière Isabelle TASCON, le Président d'honneur Gérard LEFORT, et la Secrétaire Malika ROUACHE.</p><br>
+                <p class="bold">Site de publication</p>
+                <p>Le site est publié sous la direction de Isabelle Tascon, qui peut être contactée à l'adresse e-mail tesptitesmainsvertes@gmail.com.</p><br>
+                <p class="bold">Propriété Intellectuelle</p>
+                <p>Toutes les photos et vidéos présentes sur ce site sont la seule propriété de l'association Les P'tites Mains Vertes. Toute utilisation, reproduction ou diffusion sans autorisation préalable est strictement interdite.</p>
                 </p>
             </div>
         </div>
     </div>
     
+
+    <!-- début footer -->
+    <footer id="footer">
+      <div class="containerFooter">
+        <!-- début éléments footer gauche -->
+        <div class="footerGauche">
+          <div class="logoFooter"> <!-- div logo vertical -->
+            <img src="images/logo - ISABELLE TASCON (1).png" alt="">
+          </div>
+          <div class="pictos"> <!-- div contenant les icones et liens des réseaux sociaux -->
+            <div class="logo"> <!-- logo et lien facebook -->
+              <a href="https://www.facebook.com/tesptitesmainsvertes">
+                <img src="images/facebook.png" alt="">
+              </a>
+            </div>
+            <div class="logo"> <!-- logo et lien hello asso -->
+              <a href="https://www.helloasso.com/associations/le-collectif-tes-p-tites-mains-vertes" target="_blank">
+                <img src="images/hello_asso.png" alt="">
+              </a>
+            </div>
+            <div class="logo"> <!-- logo et lien youtube -->
+              <a href="https://www.youtube.com/@tespetitesmainsvertes7562">
+                <img src="images/logoYoutube.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- fin éléments footer gauche -->
+
+        <!-- début éléments footer droit -->
+        
+        <div class="footerDroit">
+          <div>
+          <div class="Contact"> <!-- coté gauche -->
+            <a href="https://www.helloasso.com/associations/le-c8ollectif-tes-p-tites-mains-vertes" target="_blank" class="josefin bold">Adhérez ou faites un don</a> <br><!-- lien vers hello asso -->
+            <p class="bold">Contact</p> <!-- texte à mettre en gras -->
+            <a href="mailto:tesptitesmainsvertes@gmail.com" target="_blank" class="josefin bold">Envoyer un mail</a> <!-- lien mailto: vers email -->
+          </div>
+
+          <div class="adresse"> <!-- coté droit -->
+            <p class="bold">Siège social</p> <br><!-- texte à mettre en gras -->
+            <p> <b></b> Maison des associations de Tourcoing <br> <!-- adresse siège social -->
+              100 rue de Lille <br>
+              59200 Tourcoing</p>
+          </div>
+        </div>
+          <!-- centré -->
+          <a class="mentionslegales josefin bold" href="mentionsLegales.html">Mentions légales</a> <!-- lien vers page mentions légales -->
+        </div>
+        <!-- fin éléments footer droit -->
+      </div>
+    </footer>
+    <!-- fin footer -->
+
 </body>
 </html>
