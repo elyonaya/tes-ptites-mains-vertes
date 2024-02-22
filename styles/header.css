@@ -6,6 +6,9 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 100;
+
+
 
 }
 .logo {
@@ -23,4 +26,38 @@ nav {
 padding: 20px;
 font-family: var(--body-font);
 font-weight: bold;
+}
+/* Media query pour les écrans plus petits (par exemple, mobile) */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* Cache le menu sur les écrans plus petits */
+  }
+
+  .burger-menu {
+    display: block; /* Affiche le menu burger sur les écrans plus petits */
+    cursor: pointer;
+  }
+
+  /* Style pour rendre le menu burger visible */
+  .burger-menu .line {
+    transition: all 0.3s ease;
+  }
+
+  .burger-menu.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .burger-menu.open .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media screen and (min-width: 768px){
+  .burger-menu {
+    display: none ;
+  }
 }
