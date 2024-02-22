@@ -6,15 +6,177 @@
 
 .container img{
     width: 100%;
-
+    height: 25vh;
 }
 
 #section1{
     height: 50vh;
+    margin-bottom: 5vh;
     background-image: url(../images/mainsBouleTerre.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
+
 }
+/* *************début de la section 2 */
+#section2 .container{
+    display:flex;  
+}
+
+#quiSommesNous{
+    width: 50%;
+}
+#quiSommesNous H1{
+    margin: 3rem 0;
+    line-height:2px;
+}
+#quiSommesNous p{
+    color: var(--marron);
+    font-family: var(--body-font);
+}
+#quiSommesNous H3{
+    margin: 2rem 0;
+    color: var(--vertFonce);
+}
+
+#quiSommesNous li{
+    color: var(--marron);
+    padding-bottom: 2px;
+}
+#quiSommesNous ul li{
+    list-style-type:circle;  
+    color: var(--marron); 
+
+}
+
+
+/******************** Bloc photos sur la droite************************* */
+#images{
+    width: 50%;
+
+}
+#images div{
+    display: flex;
+   
+}
+
+#images div div{
+    width: 50%;
+    
+}
+
+#images div img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px var(--vertClair);
+    margin:2rem
+}
+
+@media screen and (max-width: 768px){
+    #section2 .container{
+        flex-direction: column;
+    }
+    #quiSommesNous{
+        width: 100%;
+    }
+    #quiSommesNous H1{
+        font-size: 2rem;
+    }
+    #images{
+        width: 100%;
+    }
+    #photoSup {     /*enlève la div avec les 2 images*/
+        display: none !important;
+    }
+}
+
+/* ******************* début présentation des membres*********************************** */
+
+#membres{
+    display: flex; 
+    justify-content: center;
+    margin: 25px;
+    border-right: var(--vertFonce) 25px solid;
+}
+
+#membres h1{
+    padding: 5px 0;
+}
+.cartePresentation{
+    border-radius: 5px;  
+    height: auto;
+    margin: 25px;
+    display: flex;
+    padding: 5px;
+}
+
+.photos{
+    width: 30%;
+    height: 50%;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 15px -15px 0px var(--vertClair);
+}
+
+.photos img{
+    width: 100%;
+    height: auto;   
+}    
+
+.descriptions{
+    width: 70%;
+    margin: 10px;
+    padding: 5px;
+}
+.descriptions h3{
+    font-family: var(--body-font);
+    color: var(--vertFonce);
+    margin-bottom: 3px;
+}
+
+.descriptions p{
+    font-family: var(--body-font);
+    color: var(--marron);
+    
+
+}
+#presidente{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#presidente .cartePresentation{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#carteMembres{
+    display: flex; 
+}
+
+.lesMembres{
+    width: 50%;
+}
+
+@media screen and (max-width: 768px){
+    #carteMembres {
+        flex-direction: column;
+    }
+    .lesMembres {
+        width: 100%;
+    }
+    .cartePresentation {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: flex;
+    }
+    #presidente .cartePresentation {
+        width: 100%;
+    }
+    
+}
+
 
 
