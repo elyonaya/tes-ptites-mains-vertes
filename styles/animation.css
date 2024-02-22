@@ -1,4 +1,4 @@
-.section1 {
+.section {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -7,68 +7,71 @@
     justify-content: center;
     align-items: center;
 }
-.section1 .set {
+.section .set {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
+    top: 15px;
     left: 0;
     pointer-events: none;
+    overflow: hidden;
+    
 }
-.section1 .set div {
+
+.section .set div {
     position: absolute;
     display: block;
 
 }
-.section1 .set div:nth-child(1){
+.section .set div:nth-child(1){
     left: 20%;
     animation: animate 15s linear infinite;
     animation-delay: -4s;
 
 }
-.section1 .set div:nth-child(2){
+.section .set div:nth-child(2){
     left: 40%;
     animation: animate 20s linear infinite;
     animation-delay: -5s;
 
 
 }
-.section1 .set div:nth-child(3){
+.section .set div:nth-child(3){
     left: 20%;
     animation: animate 20s linear infinite;
-    animation-delay: -5s;
+    animation-delay: 5s;
 
 
 }
-.section1 .set div:nth-child(4){
+.section .set div:nth-child(4){
     left: 5%;
     animation: animate 20s linear infinite;
     animation-delay: -5s;
 
 
 }
-.section1 .set div:nth-child(5){
+.section .set div:nth-child(5){
     left: 10%;
     animation: animate 20s linear infinite;
     animation-delay: -9s;
 
 
 }
-.section1 .set div:nth-child(6){
+.section .set div:nth-child(6){
     left: 18%;
     animation: animate 20s linear infinite;
     animation-delay: -2s;
 
 
 }
-.section1 .set div:nth-child(7){
+.section .set div:nth-child(7){
     left: 35%;
     animation: animate 20s linear infinite;
     animation-delay: -7s;
 
 
 }
-.section1 .set div:nth-child(8){
+.section .set div:nth-child(8){
     left: 20%;
     animation: animate 20s linear infinite;
     animation-delay: -5s;

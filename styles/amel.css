@@ -1,0 +1,27 @@
+.section div{
+    display: flex;
+  }
+  #section1 .container{
+    align-items: center;
+  
+  }
+  #section1 .container div{
+    width: 50%;
+  }
+  .phraseAccroche p{
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--marron);
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    padding: 0 20% ;
+    top: 230px;
+    left: -50px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.819);
+}
+
+    
+
+
+  
