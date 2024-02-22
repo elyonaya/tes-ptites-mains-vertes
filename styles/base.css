@@ -75,3 +75,7 @@ section.bg-vert {
 .josefin {
   font-family: var(--body-font);
 }
+
+ul li {
+  font-family: var(--body-font);
+}
