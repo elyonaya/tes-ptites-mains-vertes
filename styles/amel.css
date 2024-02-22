@@ -21,6 +21,35 @@
     left: -50px;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.819);
 }
+@media screen and (max-width: 768px) {
+  .section .container {
+    position: relative; /* Assure que les éléments positionnés à l'intérieur de la section respectent les coordonnées relatives à la section */
+  }
+
+  .section .illustrationAccueil img {
+    position: absolute; /* Positionne l'image par rapport à son conteneur */
+    top: 0; /* Positionne l'image au sommet de la section parente */
+    left: 0; /* Positionne l'image à gauche de la section parente */
+    width: 100%; /* L'image prendra toute la largeur de la section parente */
+    
+  }
+
+  .phraseAccroche p{
+    position: relative; /* Assure que le texte est positionné par rapport à la section parente */
+    z-index: 1; /* Place le texte au-dessus de l'image */
+    text-align: center;
+    font-size: 16px;
+    color: var(--marron);
+    padding: 10px;
+    border-radius: 5px;
+    transform: translateX(60%); /* Centre le texte verticalement */
+    top: 5px;
+  }
+
+  .section .set {
+    display: none;
+  }
+}
 
 
 /*********************section 2*****************************************/
@@ -60,6 +89,36 @@
   font-size: 20px;
   margin-top: 20px;
 
+}
+
+@media screen and (max-width: 767px) {
+  #section2 {
+    margin-top: 0; /* Réinitialise la marge supérieure pour aligner correctement la section */
+  }
+
+  #section2 .container {
+    flex-direction: column; /* Change la direction du flux pour empiler les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+  }
+
+  #section2 .container .carre {
+    margin-bottom: 20px; /* Ajoute un espace entre chaque carré */
+    width: 80%; /* Réduit la largeur des carrés pour s'adapter à la largeur de l'écran */
+    text-align: center; /* Centre le contenu à l'intérieur des carrés */
+  }
+
+  #section2 .container .carre img {
+    margin-top: 10px; /* Réduit l'espace entre l'image et le texte */
+  }
+
+  #section2 .container .carre h2 {
+   font-size: 16px;
+  }
+
+  #section2 .container .carre a {
+    font-size: 16px; /* Réduit la taille de la police du lien */
+    margin-top: 10px; /* Réduit l'espace entre le titre et le lien */
+  }
 }
 
 /*********************section 3*****************************************/
