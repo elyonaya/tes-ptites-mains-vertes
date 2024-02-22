@@ -1,37 +1,37 @@
 footer{
           display: flex;
           justify-content: center;
+          align-items: center;
           background-color: var(--beige);
-          border: 2px solid purple;
+          height: 40vh;
 }
 .containerFooter{
           display: flex;
-          /* margin: 0 auto; */
 }
 .footerGauche{
-          border: 5px solid lightblue;
-          width: 30%;
+          width: 40%;
           flex-direction: column;
           display: flex;
           justify-content: center;
           align-items: center;
-          gap: 25px;
-          padding: 20px 0;
-         
 }
 
 .footerDroit{
-          border: 5px solid pink;
-          width: 70%;
-          margin: 0 auto;
-
+          width: 60%;
           display: flex;
           align-items: center;
-          margin: 0 auto;
+          justify-content: center;
+          flex-direction: column;
+}
+
+.footerDroit>div {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-bottom: 5%;
 }
 
 .Contact{
-          border: 2px black solid;
           display: flex;
           width: 50%;
           flex-direction: column;
@@ -39,7 +39,6 @@ footer{
           margin-right: 20px;
 }
 .adresse{
-          border: 2px green solid;
           width: 50%;
           display: flex;
           flex-direction: column;
@@ -52,18 +51,16 @@ footer{
 
 
 .logoFooter {
-          border: 2px solid blue;
-          width: 200px;
+          width: 30%;
 
 }
 
 .pictos {
-          border: 2px solid red;
           display: flex;
           justify-content: center;
           align-items: center;
           align-items: space-between;
-          width: 70%;
+          width: 40%;
 
 }
 
