@@ -1,22 +1,4 @@
-/* début CSS section 3 */
-.containerVideo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    height: 90%;
-    background-image: url(../images/pellicule.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-.videoYtb {
-    width: 70%;
-    height: 75%;
-    padding-top: 2%;
-}
-/* fin CSS section 3 */
 
 /* début CSS section 4 */
 .section4>.container {
