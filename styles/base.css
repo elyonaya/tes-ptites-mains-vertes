@@ -5,13 +5,11 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  /*font-family: "Merriweather", serif;*/
-  color: var(--primary-color);
+  color: var(--marron);
 }
 
 h1 {
-  font-size: 48px;
-  
+  font-size: 42px;
 }
 
 h2 {
@@ -22,34 +20,34 @@ h3 {
   font-size: 28px;
 }
 
-h4 {
-  font-size: 22px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
-}
-
 p {
   font-family: var(--body-font);
   font-size: 16px;
   line-height: 18px;
 }
 
-.btn {
-  background-color: var(--secondary-color);
-  color: black;
-  border-radius: 5px;
+a {
+  text-decoration: none;
+  color: var(--marron);
 }
 
-section.bg-dark {
-  background-color: var(--tertiary-color);
+.btnVert {
+  background-color: var(--vertClair);
+  color: var(--vertFonce);
+  border: 1px solid var(--vertFonce);
+  border-radius: 10px;
+  padding: 5px 15px;
+  text-decoration: none;
 }
 
-section.bg-light {
-  background-color: white;
+.btnBlanc {
+  color: var(--vertFonce);
+  border: 1px solid var(--vertFonce);
+  border-radius: 10px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+section.bg-vert {
+  background-color: var(--vertClair);
 }
