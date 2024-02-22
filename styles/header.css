@@ -2,8 +2,24 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--beige);
+  position: fixed;
+  width: 100%;
+
+}
+.logo {
+  width: 200px;
+  padding: 20px;
+}
+.logo img {
+  width: 100%;
 }
 
 .menu ul {
   display: flex;
+}
+.menu ul a {
+padding: 20px;
+font-family: var(--body-font);
+font-weight: bold;
 }
