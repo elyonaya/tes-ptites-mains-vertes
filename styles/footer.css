@@ -1,24 +1,24 @@
 footer{
           display: flex;
+          justify-content: center;
           background-color: var(--beige);
+          border: 2px solid purple;
 }
 .containerFooter{
-          height: ;
           display: flex;
           /* margin: 0 auto; */
 }
 .footerGauche{
-          border: 5px solid red;
+          border: 5px solid lightblue;
           width: 30%;
           flex-direction: column;
           display: flex;
-          /* justify-content: center; */
+          justify-content: center;
           align-items: center;
           gap: 25px;
           padding: 20px 0;
          
 }
-
 
 .footerDroit{
           border: 5px solid pink;
@@ -33,15 +33,17 @@ footer{
 .Contact{
           border: 2px black solid;
           display: flex;
+          width: 50%;
           flex-direction: column;
           margin-left: 20px;
           margin-right: 20px;
 }
 .adresse{
-          border: 2px green solid
-          width: 100%;
+          border: 2px green solid;
+          width: 50%;
           display: flex;
           flex-direction: column;
+
 }
 
 .footerDroit a {
@@ -59,6 +61,7 @@ footer{
           border: 2px solid red;
           display: flex;
           justify-content: center;
+          align-items: center;
           align-items: space-between;
           width: 70%;
 
