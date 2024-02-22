@@ -90,28 +90,63 @@
 /* fin CSS section 3 */
 
 /*****section 6*************************/
+
 #section6 .container{
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+  
 }
+
 
 #section6 .container .carre{
   overflow: hidden;
+  
   
 }
 
 
 #section6 .container .realisations{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
+
 #section6 .container img{
   width: 100%;
 }
 
+#section6 .container .carre {
+  position: relative;
+  overflow: hidden;
+}
 
+#section6 .container .carre .image-container img {
+  width: 100%;
+  display: block;
+}
 
+#section6 .container .carre .hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Utilise la largeur de l'image */
+  height: 100%; /* Utilise la hauteur de l'image */
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  color: #fff; /* Couleur du texte */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0; /* Initialement caché */
+  transition: opacity 0.3s ease; /* Animation de transition */
+}
 
-
-
+#section6 .container .carre:hover .hover-content {
+  opacity: 1; /* Fait apparaître le contenu de survol au survol */
+}
