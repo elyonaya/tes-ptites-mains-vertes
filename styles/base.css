@@ -41,6 +41,7 @@ a {
 }
 
 .btnBlanc {
+  background-color: white;
   color: var(--vertFonce);
   border: 1px solid var(--vertFonce);
   border-radius: 10px;
