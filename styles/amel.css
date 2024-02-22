@@ -153,3 +153,40 @@
 #section6 .container .carre:hover .hover-content {
   opacity: 1; /* Fait apparaître le contenu de survol au survol */
 }
+
+
+/*********************section7 carrousel*****************/
+.section7 {
+  position: relative;
+}
+.section7 .container1{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.section7 .container1 img{
+  width: 100%;
+}
+.section7 .slam{
+  border: 2px solid ;
+  width: 376px;
+
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 15%;
+  background: white;
+}
+.section7 h3{
+  margin-bottom: 20px;
+}
+.section7 p{
+  margin-bottom: 20px;
+}
+.section7 a{
+  display: inline-block;
+  margin-top: 10px;
+  
+}
+
