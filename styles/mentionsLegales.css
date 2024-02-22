@@ -1,0 +1,31 @@
+.feuilles{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 30px;
+        
+}
+
+.feuille {
+          width: 70px;
+          align-items: center;
+}
+
+.feuille img {
+          width: 100%;
+}
+
+.texte{
+          border: 5px solid #1D5902;
+          border-radius: 10px;
+          text-align: center;
+          padding: 10px;
+          box-shadow: 68px 48px 4px 0px #C7D9A0;  
+          width: 70%;
+          margin: 0 auto;
+}
+
+.titreMentions{
+          text-align: center;
+          padding: 50px;
+}
