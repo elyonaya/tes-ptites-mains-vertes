@@ -93,3 +93,43 @@
 }
 
 /* fin CSS section 5 */
+
+/* début CSS section 8 */
+.section8 {
+    height: 75vh;
+}
+
+.section8>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--vertFonce);
+    border-radius: 25px;
+    width: 65%;
+    height: 75%;
+}
+
+.section8>.container>div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.section8 h1  {
+   padding: 5% 0;
+   font-family: var(--body-font);
+   font-weight: bold;
+}
+
+.logoRadio {
+    height: 200px;
+    width: 200px;
+}
+
+.logoRadio img {
+    height: 100%;
+    width: 100%;
+}
+/* fin CSS section 8 */
