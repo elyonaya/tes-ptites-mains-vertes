@@ -1,0 +1,68 @@
+.footer {
+          display: flex;
+          background-color: var(--beige);
+        }
+        
+        .containerFooter {
+          display: flex;
+          width: 80%;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+        
+        .footerGauche {
+          border: 5px solid red;
+          display: flex;
+          align-items: center;
+          width: 30%;
+          flex-direction: column;
+        }
+        
+        .footerDroit {
+          border: 5px solid pink;
+          width: 60%;
+          display: flex;
+          align-items: center;
+          margin: 0 auto;
+        }
+        
+        .Contact {
+          border: 2px black solid;
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        
+        .adresse {
+          border: 2px green solid;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          margin: 10px 0; /* Ajout de marges pour espacement */
+        }
+        
+        .footerDroit a {
+          display: flex; /* Ajout de cette ligne */
+          justify-content: center;
+        }
+        
+        .logoFooter {
+          border: 2px solid blue;
+          width: 200px;
+          margin-left: 50px;
+          margin-bottom: 20px;
+        }
+        
+        .pictos {
+          border: 2px solid red;
+          display: flex;
+          justify-content: space-between; /* Correction de la propriété */
+          align-items: center; /* Ajout de cette ligne */
+          width: 70%;
+        }
+        
+        .footerGauche img {
+          width: 100%;
+        }
+        
