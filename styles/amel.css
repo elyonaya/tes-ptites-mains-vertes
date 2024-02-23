@@ -162,8 +162,7 @@
 
 #section6 .container .carre{
   overflow: hidden;
-  
-  
+
 }
 
 
@@ -212,6 +211,19 @@
 
 #section6 .container .carre:hover .hover-content {
   opacity: 1; /* Fait apparaître le contenu de survol au survol */
+}
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+  #section6 .container .realisations {
+    grid-template-columns: 1fr;
+  }
+
+  .realisations {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 
