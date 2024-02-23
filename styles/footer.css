@@ -108,4 +108,8 @@ footer{
     .adresse {
       width: 100%;
     }
+
+    .mentionslegales {
+      margin-bottom: 3%;
+    }
   }
