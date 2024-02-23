@@ -45,6 +45,35 @@
 .section4 p {
     padding: 13% 0;
 }
+
+/* responsive */
+@media screen and (max-width: 768px) {
+    .section4 {
+        height: 150vh;
+    }
+
+    .section4>.container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .illustrationSection4 {
+      height: 40%;
+      width: 60%;
+    }
+  
+    .descNotreMission {
+        width: 80%;
+      }
+
+    .titreNotreMission {
+      padding: 0; /* Remove padding for mobile */
+    }
+  
+    .section4 p {
+      padding: 5% 0; /* Adjust padding for mobile */
+    }
+  }
 /* fin CSS section 4 */
 
 /* début CSS section 5 */
@@ -135,4 +164,26 @@
     height: 100%;
     width: 100%;
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .section8 > .container {
+        height: 50%;
+        width: 90%;
+    }
+
+    .container>div h3 {
+        font-size: x-large;
+    }
+
+    .container>div h1 {
+        font-size: x-large;
+    }
+
+    .logoRadio {
+        height: 125px;
+        width: 125px;
+    }
+}
+
 /* fin CSS section 8 */
