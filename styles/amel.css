@@ -161,8 +161,7 @@
 
 #section6 .container .carre{
   overflow: hidden;
-  
-  
+
 }
 
 
@@ -213,19 +212,16 @@
   opacity: 1; /* Fait apparaître le contenu de survol au survol */
 }
 
-/* resposive */
+/* responsive */
 
 @media screen and (max-width: 768px) {
   #section6 .container .realisations {
     grid-template-columns: 1fr;
   }
 
-  #section6 .container .carre {
-    width: 100%;
-  }
-
-  #section6 .container .carre .hover-content {
-    border-radius: 0;
+  .realisations {
+    width: 50%;
+    height: 50%;
   }
 }
 
