@@ -104,8 +104,9 @@
 
   #section2 .container .carre {
     margin-bottom: 20px; /* Ajoute un espace entre chaque carré */
-    width: 80%; /* Réduit la largeur des carrés pour s'adapter à la largeur de l'écran */
+    width: 50%; /* Réduit la largeur des carrés pour s'adapter à la largeur de l'écran */
     text-align: center; /* Centre le contenu à l'intérieur des carrés */
+    justify-content: center;
   }
 
   #section2 .container .carre img {
@@ -128,7 +129,12 @@
   margin-top: 100px;
   margin-bottom: 100px;
  
-}.containerVideo {
+}
+.section3 h1{
+  color: var(--beige);
+  margin-top: 5px;
+}
+.containerVideo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,6 +152,27 @@
   padding-top: 2%;
   aspect-ratio: 1.63/1;
   margin-bottom: 14px;
+}
+
+/* Media Query pour les appareils mobiles */
+@media only screen and (max-width: 768px) {
+  .containerVideo {
+    background-image: none; /* Pour que le fond d'écran disparaisse en mode mobile */
+    
+    
+  }
+  
+  .videoYtb {
+    width: 100%; /* Pour que la vidéo prenne 100% de la largeur de l'écran mobile */
+    height: auto; /* Pour que la hauteur de la vidéo soit ajustée de manière proportionnelle */
+    margin-bottom: 14px;
+  }
+  .section3 h1{
+    font-size: 16px;
+    text-align: center;
+    color: var(--marron);
+    
+  }
 }
 /* fin CSS section 3 */
 
