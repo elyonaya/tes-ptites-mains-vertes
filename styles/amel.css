@@ -34,7 +34,7 @@
   }
 
   .phraseAccroche p{
-    position: relative; Assure que le texte est positionné par rapport à la section parente
+    /* position: relative; Assure que le texte est positionné par rapport à la section parente */
     z-index: 1; /* Place le texte au-dessus de l'image */
     /* retouche le texte il est derrière l'image*/
 
