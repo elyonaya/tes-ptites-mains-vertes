@@ -71,3 +71,41 @@ footer{
 .mentionslegales {
           margin-top : 10px
 }
+
+/* responsive */
+@media screen and (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .containerFooter {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footerGauche,
+    .footerDroit {
+      width: 100%;
+    }
+
+    .logoFooter {
+        height: 25%;
+        width: 25%;
+        margin-top: 5%;
+    }
+
+    .pictos {
+        height: 30%;
+        width: 30%;
+    }
+  
+    .footerDroit>div {
+      flex-direction: column;
+    }
+  
+    .Contact,
+    .adresse {
+      width: 100%;
+    }
+  }
