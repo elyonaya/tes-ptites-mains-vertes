@@ -167,6 +167,10 @@
 
 /* responsive */
 @media only screen and (max-width: 768px) {
+    .section8 {
+        height: 60vh;
+    }
+
     .section8 > .container {
         height: 50%;
         width: 90%;
