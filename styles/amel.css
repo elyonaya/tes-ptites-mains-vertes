@@ -254,7 +254,7 @@
 }
 
 
-/*********************section7 carrousel*****************/
+/*********************section7 *****************/
 .section7 {
   position: relative;
 }
@@ -287,4 +287,21 @@
   margin-top: 10px;
   
 }
+/* Media Query pour les appareils mobiles */
+@media only screen and (max-width: 768px) {
+  .section7 .container1 img {
+    display: none; /* Pour faire disparaître l'image sur les appareils mobiles */
+  }
+  .section7 .slam {
+    background: var(--beige); /* Pour changer le fond du texte en beige */
+    width: 100%; /* Pour que le conteneur de texte occupe toute la largeur */
+    right: 0; /* Pour aligner le texte à gauche sur les appareils mobiles */
+    padding: 10px; /* Ajustement des marges intérieures pour un meilleur affichage */
+    border-radius: 10px; /* Supprimer le rayon du bord pour un look plus propre */
+    position: static; /* Supprimer la position absolue pour que le texte suive l'ordre normal du flux */
+    
+
+  }
+}
+
 
