@@ -161,4 +161,26 @@
     height: 100%;
     width: 100%;
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .section8 > .container {
+        height: 50%;
+        width: 90%;
+    }
+
+    .container>div h3 {
+        font-size: x-large;
+    }
+
+    .container>div h1 {
+        font-size: x-large;
+    }
+
+    .logoRadio {
+        height: 125px;
+        width: 125px;
+    }
+}
+
 /* fin CSS section 8 */
