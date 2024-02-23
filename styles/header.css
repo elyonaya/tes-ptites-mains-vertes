@@ -6,7 +6,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 100;
+  z-index: 300;
 }
 
 .logo {
@@ -48,6 +48,7 @@ nav {
   right: 0;
   background-color: var(--beige); /* couleur de fond du menu */
   padding: 20px; /* ajout de marge intérieure pour l'esthétique */
+  margin-top: 20px;
 }
 
 .menu.open {
